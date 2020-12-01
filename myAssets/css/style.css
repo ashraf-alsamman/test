@@ -1,0 +1,210 @@
+ 
+
+body{
+    background-color: #f5f5f5;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #b4b7c7;
+  text-decoration: none;
+  background-color: transparent;
+} 
+.star:hover {
+  color: #b4b7c7;
+  text-decoration: none;
+  background-color: transparent;
+} 
+.btn-primary {
+    color: #fff;
+    background-color: #3799ff;
+    border-color: #3799ff;
+}
+
+ .pokemon{
+    background-color: #fff;
+    padding:0;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.51);
+    -moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.51);
+    box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.51);
+ }
+
+
+ .pokemon_fav{
+    background-color: #fff;
+    padding:0;
+    padding: 21px 44px 21px 44px;
+   }
+ 
+ .pokemon_container{
+   padding:10px;
+}
+.name{
+  font-size: 19px;
+  font-weight: 600;
+  color: #212121;
+  margin-left: 29px;
+}
+
+.fav_name{
+  font-size: 15px;
+  font-weight: 500;
+  color: #212121;
+  margin-left: 13px;
+}
+
+.header{
+  -webkit-box-shadow: 0px 5px 22px -4px rgba(0,0,0,0.46);
+  box-shadow: 0px 5px 22px -4px rgba(0,0,0,0.46);
+  background-color: #3f51b5;
+  height: 57px;
+  padding: 15px 45px 13px 33px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  font-size: 16px;
+}
+ 
+.fa {
+   color: #fff;
+  font-size: 17px;
+}
+ .star_container{
+  padding: 8px 0px 0px 0px;}
+
+.counter{
+  padding: 3px 0px 0px 0px;
+  color:#fff ;
+}
+
+.content{
+    background-color: #f8f8f8;
+    padding: 21px 30px 3px 30px;
+    margin-bottom: 10px;
+}
+
+ 
+ 
+ 
+ 
+
+/* make sure the element has position: relative */
+[data-notifications] {
+  position: relative;
+}
+
+/* append the notification badge after it */
+[data-notifications]:after {
+  content: attr(data-notifications);
+  position: absolute;
+  background: #f50057;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0px 8px 0px 7px;
+  color: #f2f2f2;
+  right: -28px;
+  top: -14px;
+  height: 20px;
+  font-size: 13px;
+}
+
+
+
+.attack{
+  color: #3f51b5;
+  border: 1px solid #3f51b5;
+  /* font-weight: 400; */
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px 6px;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 25px;
+  margin-right: 3px;
+  width: 100px;
+
+}
+
+.defence{
+  color: #f50057;
+  border: 1px solid #f50057;
+  /* font-weight: 400; */
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px 6px;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 25px;
+  margin-left: 3px;
+  width: 100px;
+}
+
+.base{
+  text-align: -webkit-center;
+}
+
+.btn-fav{
+  background-color: #3f51b5;
+  margin: 15px 0px 0px 0px;
+  padding: 10px;
+}
+
+.btn-remove{
+  background-color: #fff;
+  margin: 15px 0px 0px 0px;
+  padding: 10px;
+  color: #ff0000;
+  border: none;
+  font-size: 12px;
+ }
+
+.btn-remove:hover{
+  margin: 15px 0px 0px 0px;
+  padding: 10px;
+  color:#8e1313;
+  border:none ;
+  background-color: #fff;
+ }
+
+
+.btn_remove_all {
+  background-color: #fff;
+  margin: 15px 0px 0px 0px;
+  padding: 10px;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  font-size: 12px;
+ }
+
+.btn_remove_all:hover{
+  margin: 15px 0px 0px 0px;
+  padding: 10px;
+  color:#8e1313;
+  border:none ;
+  background-color: #fff;
+  border: 1px solid #8e1313;
+
+ }
+
+
+ 
+
+.btn_fav_container{
+  padding: 10px;
+}
+
+.btn-added{
+  color: #3f51b5;
+  background-color: #FFF;
+text-align: center;
+border: 1px solid #3f51b5;
+border-radius: .25rem;
+padding: 10px;
+margin: 15px 0px 0px 0px;
+
+
+}
